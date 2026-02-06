@@ -1,7 +1,8 @@
 # GLM-OCR Studio
 
 GLM-OCR Studio 是一个基于 [Next.js](https://nextjs.org) 构建的现代化 Web 应用，旨在为 [智谱 AI GLM-OCR](https://open.bigmodel.cn/dev/api#glm-ocr) 模型提供优雅、高效的可视化操作界面。通过它，您可以轻松上传 PDF 或图片文件，进行高精度的文档布局分析与内容提取，并实时预览解析结果。
-
+![alt text](image.png)
+![alt text](image-1.png)
 ## ✨ 核心特性
 
 - **📄 多格式支持**: 支持 PDF、JPG、PNG 等常见文档和图片格式上传。
