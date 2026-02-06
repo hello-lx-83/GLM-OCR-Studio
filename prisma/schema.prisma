@@ -1,0 +1,18 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model FileHistory {
+  id        Int      @id @default(autoincrement())
+  fileName  String
+  fileSize  Int
+  fileType  String
+  createdAt DateTime @default(now())
+  status    String
+  result    String?
+}
